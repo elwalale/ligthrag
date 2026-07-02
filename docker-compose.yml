@@ -7,7 +7,7 @@ services:
       tags:
         - ghcr.io/hkuds/lightrag:latest
     ports:
-      - "${HOST:-0.0.0.0}:${PORT:-9621}:9621"
+      - "${HOST:-0.0.0.0}:${PORT:-9622}:9621"
     volumes:
       - ./data/rag_storage:/app/data/rag_storage
       - ./data/inputs:/app/data/inputs
